@@ -3,7 +3,8 @@ export default function CourseStatus() {
       <div id="wd-course-status">
         <h2>Course Status</h2>
         <button>Unpublish</button> <button>Publish</button>
-        {/* Complete on your own */}
+        <button>View Course Materials</button>
+        <button>Edit Course Details</button>
         <button>View Course Notifications</button>
       </div>
   );}
