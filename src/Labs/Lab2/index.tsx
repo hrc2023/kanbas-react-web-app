@@ -100,9 +100,9 @@ export default function Lab2() {
       <br />
       <div id="wd-anchors">
         <h3>Link to My Websites</h3>
-        <a href="https://hc-kanbas-react-web-app.netlify.app/">My Kanbas App Home Page</a>
+        <a href="https://hc-kanbas-react-web-app.netlify.app/#/Kanbas/Account/Signin">My Kanbas App Home Page</a>
         <br />
-        <a href="https://github.com/hrc2023/kanbas-react-web-app">GitHub Repo</a>
+        <a href="https://github.com/hrc2023/kanbas-react-web-app/tree/a2">GitHub Repo</a>
       </div>
       <br />
   </div>
