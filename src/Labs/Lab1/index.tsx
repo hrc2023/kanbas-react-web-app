@@ -4,7 +4,6 @@ export default function Lab1() {
       <h2>Lab 1</h2>
 
       <div id="1stparagraph">
-        <h2>Lab 1</h2>
         <h3>
           Name: Haoyang (Hendrick) Chen
           <br />
