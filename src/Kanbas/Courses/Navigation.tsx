@@ -11,7 +11,7 @@ export default function CoursesNavigation() {
       <a id="wd-neu-link" target="_blank" 
         href="https://www.northeastern.edu/"
         className="list-group-item bg-black border-0 text-center">
-        <img src="/images/NEU.png" width="75px" /></a>
+        <img src="/images/NEU.png" width="75px" alt="NEU"/></a>
     
         <Link
         to="/Kanbas/Account"
