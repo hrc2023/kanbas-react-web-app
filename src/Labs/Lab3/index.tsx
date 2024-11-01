@@ -1,9 +1,10 @@
+import VariablesAndConstants from "./VariablesAndConstants";
+
 export default function Lab3() {
-    return (
-      <div>
-        <h2>Lab 3</h2>
-        <h2>Haoyang (Hendrick) Chen</h2>
-      </div>
-    );
-  }
-  
+  return(
+    <div id="wd-lab3">
+      <h3>Lab 3</h3>
+      <VariablesAndConstants/>
+    </div>
+  );
+}

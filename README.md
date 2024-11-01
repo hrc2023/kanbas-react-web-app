@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 # kanbas-react-web-app
 
 # Name: Haoyang (Hendrick) Chen
 # Course: CS 5610
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
