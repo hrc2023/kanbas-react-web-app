@@ -30,4 +30,5 @@ export default function Profile(){
       className="btn btn-secondary w-100">
       Sign Out </Link>
     </div>
-);}
+);
+}
