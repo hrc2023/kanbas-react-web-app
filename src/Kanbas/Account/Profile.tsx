@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-export default function Profile() {
-=======
+
 export default function Profile(){
->>>>>>> 5389a6e (a1)
   return (
     <div id="wd-profile-screen" className="container">
       <h1>Profile</h1>
