@@ -1,11 +1,18 @@
+import * as db from "../../Database";
+import { useParams } from "react-router";
+
 export default function AssignmentEditor() {
+  const { aid } = useParams(); // Assuming route has an aid parameter for assignment ID
+  const assignments = db.assignments;
+  const assignment = assignments.find((a) => a._id === aid);
+
   return (
     <div id="wd-assignments-editor" className="container mt-4">
       <div className="mb-3">
         <label htmlFor="wd-name">
-          <h5><strong>Assignment Name</strong></h5>
+          <h5><strong>{assignment ? assignment.title : "Assignment Title"}</strong></h5>
         </label>
-        <input id="wd-name" value="A1 - ENV + HTML" className="form-control" />
+        <input id="wd-name" value={assignment ? assignment.title : ""} className="form-control" />
       </div>
 
       <div className="mb-3">
